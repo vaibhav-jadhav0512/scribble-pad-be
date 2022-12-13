@@ -17,5 +17,6 @@ spring:
         jwt:
           issuer-uri: http://localhost:8080/realms/scribble-pad
           jwk-set-uri: http://localhost:8080/realms/scribble-pad/protocol/openid-connect/certs
-          
-
+#logging:
+#  level:
+#    '[org.springframework.jdbc.core]': TRACE 
